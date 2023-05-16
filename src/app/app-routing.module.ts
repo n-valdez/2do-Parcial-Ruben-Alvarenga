@@ -8,8 +8,16 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'clasi-app',
     pathMatch: 'full'
+  },
+  {
+    path: 'clasi-app',
+    loadChildren: () => import('./pages/clasi-app/clasi-app.module').then( m => m.ClasiAppPageModule)
+  },
+  {
+    path: 'info-clasi-app',
+    loadChildren: () => import('./pages/info-clasi-app/info-clasi-app.module').then( m => m.InfoClasiAppPageModule)
   },
 ];
 

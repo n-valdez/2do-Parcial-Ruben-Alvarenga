@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\clasi-app",
+    "\\src\\app\\pages\\info-clasi-app",
+    "\\src\\app\\pages\\interface",
+    "\\src\\app\\service"
+  ],
+  "SelectedNode": "\\src\\app\\pages\\info-clasi-app\\info-clasi-app.page.ts",
+  "PreviewInSolutionExplorer": false
+}
